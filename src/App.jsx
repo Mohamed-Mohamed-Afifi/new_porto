@@ -7,9 +7,9 @@ const About = lazy(() => import("./components/about/About"));
 const Experience = lazy(() => import("./components/experience/Expreience"));
 const Services = lazy(() => import("./components/services/Services"));
 const Portfolio = lazy(() => import("./components/portfolio/Portfolio"));
-const Testimonials = lazy(() =>
-  import("./components/testimonials/Testimonials")
-);
+// const Testimonials = lazy(() =>
+//   import("./components/testimonials/Testimonials")
+// );
 const Contact = lazy(() => import("./components/contact/Contact"));
 const Footer = lazy(() => import("./components/footer/Footer"));
 
@@ -29,7 +29,7 @@ class App extends React.Component {
         <Experience />
         <Services />
         <Portfolio />
-        <Testimonials />
+{/*         <Testimonials /> */}
         <Contact />
         <Footer />
       </Suspense>
