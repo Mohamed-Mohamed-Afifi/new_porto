@@ -1,0 +1,32 @@
+/* Add this to your CSS file */
+.loader-container {
+    position: fixed; /* Position the loader fixed in the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's on top of all other content */
+  }
+  
+  .spinner {
+    border: 8px solid #f3f3f3; /* Light gray background for the spinner */
+    border-top: 8px solid #3498db; /* Blue color for the spinning part */
+    border-radius: 50%;
+    width: 50px; /* Size of the spinner */
+    height: 50px; /* Size of the spinner */
+    animation: spin 1.5s linear infinite; /* Spinner animation */
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg); /* Initial state */
+    }
+    100% {
+      transform: rotate(360deg); /* Final state */
+    }
+  }
+  
