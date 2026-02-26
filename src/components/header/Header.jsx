@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="container header__container">
           <h5>Hello I'm</h5>
           <h1>Mohamed Afify</h1>
-          <div className="text-light">Fullstack Java Developer</div>
+          <div className="text-light">Fullstack Java Developer @ Vodafone</div>
           <CTA />
           <div className="me">
             <img src={ME} alt="ME" />
