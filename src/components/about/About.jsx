@@ -51,14 +51,9 @@ class About extends Component {
                 <small>8 Completed Projects</small>
               </article>
             </div>
-            <p data-aos="fade-up">
-              Junior Full-Stack Developer skilled in React.js, Spring Boot, and
-              database integration. Skilled in converting system requirements
-              into ERD diagrams, creating physical databases schema, and
-              building back-end services to handle user requests. Skilled in
-              developing user interfaces using React JS and Redux Toolkit, with
-              a focus on creating dynamic and responsive front-end solutions.
-            </p>
+<p data-aos="fade-up">
+  CRM & Backend Integration Engineer with deep expertise in <strong>Oracle Siebel CRM</strong> customization, enterprise integrations, and distributed system design. Extensive experience in developing scalable backend services using <strong>Spring Boot</strong>, <strong>JPA</strong>, and <strong>Hibernate</strong>, implementing <strong>RESTful APIs</strong>, and optimizing complex <strong>SQL</strong> queries for high-volume transactional systems. Led event-driven integration architectures using <strong>Kafka</strong> and implemented <strong>CI/CD automation</strong> through <strong>Jenkins</strong> to enhance deployment efficiency and system reliability. Adept at performance tuning, system troubleshooting, and ensuring high availability across mission-critical enterprise environments.
+</p>
             <a href="#contact" className="btn btn-primary" data-aos="fade-up">
               Let's Talk
             </a>
