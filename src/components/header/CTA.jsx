@@ -1,5 +1,5 @@
 import { Component } from "react";
-import CV from "../../assets/MohamedAfifyCV.pdf";
+import CV from "../../assets/MohameAffiyNewCv.pdf";
 class CTA extends Component {
   render() {
     return (
