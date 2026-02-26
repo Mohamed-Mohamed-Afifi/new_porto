@@ -54,6 +54,38 @@ const data = [
       "https://github.com/Mohamed-Mohamed-Afifi/Weather-App-using-PWA-Redux-React",
     demo: "https://afify-weather-app.netlify.app/",
   },
+    {
+    id: 7,
+    image:
+      "https://media.licdn.com/dms/image/v2/D4E22AQELVlbVNlO3sA/feedshare-shrink_800/feedshare-shrink_800/0/1728584844553?e=2147483647&v=beta&t=NiSZiRhS0KiFAw7uEmyamyzdBJfnF50EqaIsqjSVAhU",
+    title: "Building A Scalable E-Commerce Platform With Microservices, Kafka, And Kubernetes",
+    github: "https://github.com/Mohamed-Mohamed-Afifi/Online_Store_Integration",
+    demo: "https://github.com/Mohamed-Mohamed-Afifi/Online_Store_Integration",
+  },
+  {
+    id: 8,
+    image:
+      "https://user-images.githubusercontent.com/67495989/228755620-07c34007-c96a-4741-961b-70f70ec472c0.png",
+    title: "An HR Management System designed to streamline HR processes Using Spring Boot,JPA and Spring Security ",
+    github: "https://github.com/Mohamed-Mohamed-Afifi/HR_Management_System",
+    demo: "https://github.com/Mohamed-Mohamed-Afifi/HR_Management_System",
+  },
+    {
+    id: 9,
+    image:
+      "https://media.licdn.com/dms/image/v2/C4D1BAQFjCXX7PmmYaw/company-background_10000/company-background_10000/0/1628009857259/wondertravelofficial_cover?e=2147483647&v=beta&t=b73P9RC5ZvTZx7qRHdC_T4BraNNyrG6uqXPdYkqYdFQ",
+    title: "شركة NDC Portal بتفتحلك باب لعالم من الرحلات والخدمات السياحية المتكاملة",
+    github: "https://github.com/WT-NDC/odeysys/pull/6451",
+    demo: "https://ndceg.com/odeysysportal/login/loginForm",
+  },
+  {
+    id: 10,
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD7F8vzorTLzgHMvepnx73vNebCkPdWnnrAA&s",
+    title: "An AI-driven service assistant capable of resolving customer concerns with intelligent questions and friendly conversation",
+    github: "https://github.com/WT-NDC/odeysys/pull/6451",
+    demo: "https://www.vodafone.co.uk/business/insights-articles/tobi-not-tobi-ai-transforming-customer-experience",
+  }
 ];
 
 class Portfolio extends Component {
